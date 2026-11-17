@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf0ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #aaa;
+}
+
+h1 {
+    text-align: center;
+    color: #34495e;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+.input-area {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #5271ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #344fc4;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background: #f1f3f8;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete {
+    background: #e74c3c;
+}
+
+.edit {
+    background: #27ae60;
+}
+
+.clear {
+    width: 100%;
+    margin-top: 10px;
+    background: #2225e6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #34495e;
+}

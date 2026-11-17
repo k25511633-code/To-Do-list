@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Todo List</h1>
+        <p>Organize your daily tasks</p>
+
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <div class="filters">
+            <button onclick="filterTasks('all')">All</button>
+            <button onclick="filterTasks('pending')">Pending</button>
+            <button onclick="filterTasks('completed')">Completed</button>
+        </div>
+
+        <h3 id="taskCount">Total Tasks: 0</h3>
+
+        <ul id="taskList"></ul>
+
+        <button class="clear" onclick="clearCompleted()">
+            Clear Completed
+        </button>
+    </div>
+
+    <footer>
+        Name: Kaviya R | Register No: 212225040179
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
